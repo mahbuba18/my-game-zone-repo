@@ -94,7 +94,7 @@ nav a {
     background-color: #FFF8F3;
     background-repeat: no-repeat;
     background-position: bottom right;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .banner {
@@ -107,11 +107,11 @@ nav a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border: 2px solid red;
 }
 
 .banner img {
-    height: 500px;
+    height: 300px;
+    width: 200;
 }
 
 .banner-content {
@@ -215,7 +215,6 @@ nav a {
 
 .download {
     display: flex;
-    border: 2px solid red;
     justify-content: center;
     margin-bottom: 80px;
 }
@@ -325,7 +324,9 @@ footer p {
     .banner,
     .funny-text ,
     .sponsors-img-container,
-    .sponsors{
+    .sponsors,
+    .last-section
+    {
         flex-direction: column;
     }
     .sponsors-img-container{
@@ -376,14 +377,12 @@ footer p {
     }
 
     .btn {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 8px;
+        display: inline;
         height: 20px;
         width: 250px;
         justify-content: center;
         align-items: center;
-        margin-left: 68px;
+        
     }
 
     .banner img {
@@ -434,6 +433,10 @@ footer p {
 
     .download p {
         font-size: 8px;
+    }
+    .last-section{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
     }
 
    
@@ -493,7 +496,7 @@ footer p {
     }
 
     nav {
-        margin-bottom: 200px;
+        margin-bottom: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -512,9 +515,7 @@ footer p {
     }
 
     .btn {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 8px;
+        display: inline;
         height: 20px;
         width: 250px;
         justify-content: center;
