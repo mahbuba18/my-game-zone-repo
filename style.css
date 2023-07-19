@@ -253,14 +253,16 @@ nav a {
     justify-content:space-between;
     align-items: center;
     padding: 10px 10px;
-    border: 2px solid red;
+    background-color: white;
     margin: 5px 5px;
     border-radius: 30px;
 }
 .img-fig:hover{
-    border: 2px solid red;
+    border: 2px solid #F948B2;
     margin: 5px 5px;
     border-radius: 20px;
+    color: #F948B2;
+    
 }
 .img-fig h1{
     padding-left: 1px;
