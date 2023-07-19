@@ -244,8 +244,7 @@ nav a {
 }
 .last-section{
     background-color: antiquewhite;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: inline;
     justify-content: center;
     align-items: center;
 }
@@ -253,6 +252,20 @@ nav a {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    padding: 10px 10px;
+    border: 2px solid red;
+    margin: 5px 5px;
+    border-radius: 30px;
+}
+.img-fig:hover{
+    border: 2px solid red;
+    margin: 5px 5px;
+    border-radius: 20px;
+}
+.img-fig h1{
+    padding-left: 1px;
+    font-size: 18px;
+    font-weight: 100;
 }
 .last-section-one{
   display: grid;
