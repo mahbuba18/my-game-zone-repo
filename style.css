@@ -157,6 +157,12 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+        .download-partone h1{
+            font-size: 50px;
+            background-image: linear-gradient(#F948B2, #8758F1);
+            color: transparent;
+            -webkit-background-clip: text;
+        }
 
         .download {
             display: flex;
@@ -186,6 +192,29 @@
             padding-right: 30px;
         }
 
+        footer{
+            background-color: black;
+        }
+        .footer-img{
+           display: flex;
+           text-align: center;
+           justify-content: center;
+           padding-top: 10px;
+        }
+         .footer-img h1{
+        
+        }
+        footer p{
+            color: white;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .footer-img h3 {
+            color: white;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            font-weight: 400; /* Adjust the value as needed */
+          }
         @media screen and (max-width: 576px) {
             header {
                 padding: 20px;
@@ -219,8 +248,11 @@
             }
 
             nav {
-                text-align: center;
+                
                 margin-bottom: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
             .banner-tittle {
@@ -234,6 +266,7 @@
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
+            
 
             .btn {
                 display: grid;
@@ -251,8 +284,12 @@
                 height: 500px;
             }
 
-            .banner-img {
-                background-image: none;
+            .banner-img img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 446px;
+                margin-right: 40px;
             }
 
             .banner {
@@ -261,11 +298,13 @@
                 align-items: center;
                 justify-content: center;
                 padding-top: 30px;
-                background-image: url(images/Group\ 14.png);
+                
             }
+            
             .big-img img {
-                height: auto;
-                margin-right: auto;
+                height:300px;
+                margin-right: 300px;
+                justify-content: center;
                 margin-top: 5px;
             }
     
@@ -279,8 +318,23 @@
                 padding-right: 10px;
             }
             .download{
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 5px;
+                text-align: center;
+                justify-content:center ;
+            }
+            .download p{
+                font-size: 8px;
+            }
+
+            .footer-onepart{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+            }
+            .footer-twopart{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                font-size: 10px;
             }
         }
