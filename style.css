@@ -4,6 +4,9 @@
     font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
 }
+main{
+    margin-bottom: 80px;
+}
 
 .text-color {
     color: #F948B2;
@@ -91,6 +94,7 @@ nav a {
     background-color: #FFF8F3;
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-bottom: 80px;
 }
 
 .banner {
@@ -150,36 +154,31 @@ nav a {
     font-weight: 500;
 }
 
-.funny-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.funny-text {
-    display: flex;
-    justify-content: center;
+.text-light-grey{
+    color: #727272;
+ }
+ .sponsors{
     text-align: center;
-    font-size: 20px;
+    margin-bottom: 80px;
+ }
+ .sponsors-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px; }
+.sponsors-img-container img{
+    width:300px;
 }
-
-.funny-img {
-    padding-left: 135px;
-    width: 350px;
-    height: 380px;
+.sponsors-img-container-footer{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 90px;
+    font-size: 10px;
+    font-weight: 200;
 }
 
-.funny-img img {
-    padding: 15px;
-    justify-content: space-between;
-}
 
-.funny-text h1 {
-    margin-bottom: 20px;
-}
+
 
 .goat {
     font-size: 70px;
@@ -265,6 +264,7 @@ footer p {
     nav,
     .nav-first,
     .banner,
+    main,
     .funny-text {
         flex-direction: column;
     }
@@ -370,15 +370,11 @@ footer p {
         font-size: 8px;
     }
 
-    .funny-img {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
+   
 
     .footer-onepart {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-
     }
 
     .footer-twopart {
