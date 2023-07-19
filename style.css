@@ -170,6 +170,12 @@ nav a {
 .sponsors-img-container img{
     width:300px;
 }
+.sponsors-img-container img:hover{
+    cursor: pointer;
+    border: 2px solid #F948B2;
+    border-radius: 15px;
+    opacity: 0.5;
+}
 .sponsors-img-container-footer{
     display: flex;
     justify-content: space-between;
@@ -262,11 +268,19 @@ footer p {
     }
 
     nav,
+    main,
     .nav-first,
     .banner,
-    main,
-    .funny-text {
+    .funny-text ,
+    .sponsors-img-container,
+    .sponsors{
         flex-direction: column;
+    }
+    .sponsors-img-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 60px;
+
     }
 
     nav > ul {
